@@ -3,6 +3,11 @@ body{
     background-color: black;
 }
 
+.zero_div{
+    text-align: center;
+    height: fit-content;
+}
+
 .first_div{
     border: 5px solid black;
     
@@ -21,8 +26,15 @@ body{
 h1{
     justify-content: center;
     color: white;
+    font-family: 'Fira Sans', sans-serif;
 }
 
+#emoji{
+    justify-content: center;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 80px;
+}
 .second_div{
     /* border: 5px solid black; */
     margin-top: 10px;
@@ -47,6 +59,18 @@ h1{
 .yes_bttn, .no_bttn{
     border:2px solid ;
     border-radius: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    
+    
+}
+.yes_bttn:hover, .no_bttn:hover{
+    background-color: yellow;
+    border:2px solid ;
+    
+    font-size: 25px;
+    cursor: pointer;
+    
     
 }
 /*  amit 1*/
